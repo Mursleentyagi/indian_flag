@@ -1,0 +1,172 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+/*outer box*/
+.flag{
+   height: 600px;
+   width: 900px;
+   background-color:#ffffff;
+   position: relative;
+   left: 20%;
+   top: 80px;
+}
+
+/*code for Ashoka Chakar*/ 
+.circle{
+   height: 170px;
+   width: 170px;
+   border: 10px solid #06038D;
+   border-radius: 50%;
+   position: absolute;
+   top: 5px;
+   left: 355px;
+}
+
+/*code for inner circle of Ashoka Chakar*/ 
+.circle > .inner-circle{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   background-color: #06038D;
+   position: absolute;
+   top: 60px;
+   left: 60px;
+   
+}
+
+/*code for stick of Ashoka Chakar*/ 
+.circle > .stick-1{
+   height: 5px;
+   width: 170px;
+   background-color: #06038D;
+   position: absolute;
+   top: 82.5px;
+}
+
+.circle > .stick-2{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+}
+
+.circle > .stick-3{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(15deg);
+}
+
+.circle > .stick-4{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(30deg);
+}
+
+.circle > .stick-5{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(45deg);
+}
+
+.circle > .stick-6{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(60deg);
+}
+
+.circle > .stick-7{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(75deg);
+}
+
+.circle > .stick-8{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(-15deg);
+}
+
+.circle > .stick-9{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(-30deg);
+}
+
+.circle > .stick-10{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(-45deg);
+}
+
+.circle > .stick-11{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(-60deg);
+}
+
+.circle > .stick-12{
+   height: 170px;
+   width: 5px;
+   background-color: #06038D;
+   position: absolute;
+   left: 82.5px;
+   transform: rotate(-75deg);
+}
+
+/*code for safforn color part*/
+.rect-strip-1{
+   height: 200px;
+   width: 900px;
+   background-color: #ff671f;
+   position: absolute;
+   top: 0px;
+}
+
+/*code for white color part*/
+.rect-strip-2{
+   height: 200px;
+   width: 900px;
+   background-color: #ffffff;
+   position: absolute;
+   top: 200px;
+}
+
+/*code for green color part*/
+.rect-strip-3{
+   height: 200px;
+   width: 900px;
+   background-color: #046A38;
+   position: absolute;
+   top: 400px;
+}
